@@ -2,6 +2,7 @@
 
 ## Topics Covered:
 - If-else conditions
+- Nested if-else
 - Function definition and usage
 - Return statements
 
