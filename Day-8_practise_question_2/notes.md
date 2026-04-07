@@ -1,4 +1,4 @@
-# Day X: Input Handling & Exception Handling
+# Day 8: Input Handling & Exception Handling
 
 ## Topics Covered:
 - User input handling
