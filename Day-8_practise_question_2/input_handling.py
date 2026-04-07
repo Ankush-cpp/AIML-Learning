@@ -1,4 +1,4 @@
-# Day X: Input Handling with Exception Handling
+# Day 8: Input Handling with Exception Handling
 
 while True:
     n = input("Enter a number (or type 'quit' to exit): ")
