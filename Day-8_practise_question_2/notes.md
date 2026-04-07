@@ -1,4 +1,4 @@
-# Day X: Input Handling & Exception Handling 🧠
+# Day X: Input Handling & Exception Handling
 
 ## Topics Covered:
 - User input handling

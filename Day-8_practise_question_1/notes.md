@@ -1,4 +1,4 @@
-# Calculator using Functions 🧮
+# Calculator using Functions 
 
 ## Topics Covered:
 - Functions in Python
@@ -17,7 +17,7 @@ Build a calculator that performs:
 - Handles division by zero
 - Validates numeric input
 - Uses function-based logic
-
+ss
 ## Example:
 Input:
 5, 3, +
