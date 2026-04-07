@@ -1,4 +1,4 @@
-# Day X: Lists & Tuples
+# Day 6: Lists & Tuples
 
 # LISTS -->
 
