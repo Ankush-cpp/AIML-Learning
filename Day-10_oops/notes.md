@@ -29,3 +29,8 @@ OOP helps in writing structured, reusable and scalable code.
 - Able to create classes and objects
 - Understand different types of methods
 - Apply OOP concepts in real programs
+
+## Encapsulation
+- Data hiding using private variables (__)
+- Access data using methods
+- Improves security and control
