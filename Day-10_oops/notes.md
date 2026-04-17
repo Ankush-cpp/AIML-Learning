@@ -34,3 +34,11 @@ OOP helps in writing structured, reusable and scalable code.
 - Data hiding using private variables (__)
 - Access data using methods
 - Improves security and control
+
+### Inheritance
+
+- Child class can inherit properties and methods from parent class
+- Code reusability increases
+- Method overriding allows different behavior
+    Example:
+    Dog and Cat inherit from Animal class
