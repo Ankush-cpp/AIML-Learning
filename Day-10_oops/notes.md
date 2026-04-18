@@ -40,5 +40,15 @@ OOP helps in writing structured, reusable and scalable code.
 - Child class can inherit properties and methods from parent class
 - Code reusability increases
 - Method overriding allows different behavior
-    Example:
-    Dog and Cat inherit from Animal class
+
+Example:
+Dog and Cat inherit from Animal class
+
+### Abstraction
+
+- Hides implementation details
+- Shows only essential features
+- Achieved using abstract classes (ABC)
+
+Example:
+Shape is abstract class and Rectangle/Circle implement area()
