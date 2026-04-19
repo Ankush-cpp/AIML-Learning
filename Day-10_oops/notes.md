@@ -52,3 +52,11 @@ Dog and Cat inherit from Animal class
 
 Example:
 Shape is abstract class and Rectangle/Circle implement area()
+
+### Polymorphism
+
+- Same method name, different behavior
+- Achieved using method overriding
+
+Example:
+Dog and Cat override the speak() method
