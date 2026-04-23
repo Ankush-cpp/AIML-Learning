@@ -154,8 +154,61 @@ class ContractEmployee(Employee):
 
 
 # -------- Q7: Constructor Handling (Person) --------
+
 class Person:
     def __init__(self, name, age=None, address=None):
         self.name = name
         self.age = age
         self.address = address
+
+
+# -------- Q8: Player (Class & Instance Attributes) --------
+
+class Player:
+    player_count = 0   # class variable
+
+    def __init__(self, name, level):
+        self.name = name
+        self.level = level
+        Player.player_count += 1
+
+    def show_info(self):
+        print(f"Name: {self.name}, Level: {self.level}")
+
+    @classmethod
+    def total_players(cls):
+        print("Total players:", cls.player_count)
+
+
+# Example
+p1 = Player("A", 1)
+p2 = Player("B", 2)
+Player.total_players()
+
+
+# -------- Q9: Multiple Inheritance --------
+
+class Herbivore:
+    def eat_plants(self):
+        print("Eats plants")
+
+class Carnivore:
+    def eat_meat(self):
+        print("Eats meat")
+
+class Omnivore:
+    def eat_all(self):
+        print("Eats both plants and meat")
+
+
+class Bear(Herbivore, Carnivore, Omnivore):
+    def show(self):
+        print("Bear is omnivore animal")
+
+
+# Example
+b = Bear()
+b.eat_plants()
+b.eat_meat()
+b.eat_all()
+b.show()

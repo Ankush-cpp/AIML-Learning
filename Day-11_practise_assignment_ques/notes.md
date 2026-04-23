@@ -21,3 +21,16 @@ Solved multiple OOP problems:
 - Applied all OOP concepts in real problems
 - Improved problem-solving skills
 - Understood real-world class design
+
+### Additional Advanced Concepts
+
+#### Constructor Handling (Person)
+- Simulated constructor overloading using default parameters
+
+#### Player Class
+- Used class variable to track number of objects
+- Differentiated between class and instance attributes
+
+#### Multiple Inheritance (Bear)
+- Demonstrated inheritance from multiple parent classes
+- Combined behaviors from Herbivore, Carnivore, and Omnivore
