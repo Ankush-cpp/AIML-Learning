@@ -121,3 +121,133 @@ print(view_arr)
 
 print("\nCopy Array:")
 print(copy_arr)
+
+# BROADCASTING 
+
+matrix = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
+
+print(matrix + 10)
+
+# RANDOM NUMBERS 
+
+print("Random Integers:")
+print(np.random.randint(1, 100, 5))
+
+print("\nRandom Floats:")
+print(np.random.rand(3))
+
+# MULTIDIMENSIONAL ARRAYS
+
+arr_1d = np.array([1, 2, 3, 4, 5])
+
+print("1D Array:")
+print(arr_1d)
+
+arr_2d = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
+
+print("\n2D Array:")
+print(arr_2d)
+
+arr_3d = np.array([
+    [
+        [1, 2],
+        [3, 4]
+    ],
+    [
+        [5, 6],
+        [7, 8]
+    ]
+])
+
+print("\n3D Array:")
+print(arr_3d)
+
+# ARRAY DIMENSIONS
+
+print("1D Dimensions:", arr_1d.ndim)
+print("2D Dimensions:", arr_2d.ndim)
+print("3D Dimensions:", arr_3d.ndim)
+
+# SHAPE
+
+print("1D Shape:", arr_1d.shape)
+print("2D Shape:", arr_2d.shape)
+print("3D Shape:", arr_3d.shape)
+
+# AXES
+
+matrix = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
+
+print("Matrix:")
+print(matrix)
+
+print("\nSum using axis = 0 (column-wise):")
+print(matrix.sum(axis=0))
+
+print("\nSum using axis = 1 (row-wise):")
+print(matrix.sum(axis=1))
+
+print("\nMean using axis = 0:")
+print(matrix.mean(axis=0))
+
+print("\nMax using axis = 1:")
+print(matrix.max(axis=1))
+
+# VECTORIZATION
+
+arr = np.array([10, 20, 30, 40])
+
+print("Original Array:")
+print(arr)
+
+print("\nAddition:")
+print(arr + 5)
+
+print("\nMultiplication:")
+print(arr * 2)
+
+print("\nSquare:")
+print(arr ** 2)
+
+print("\nDivision:")
+print(arr / 2)
+
+# VECTOR OPERATIONS
+
+a = np.array([1, 2, 3])
+
+b = np.array([4, 5, 6])
+
+print("Array A:")
+print(a)
+
+print("\nArray B:")
+print(b)
+
+print("\nAddition:")
+print(a + b)
+
+print("\nSubtraction:")
+print(a - b)
+
+print("\nMultiplication:")
+print(a * b)
+
+print("\nDot Product:")
+print(np.dot(a, b))
+
+# BOOLEAN VECTORIZATION
+
+nums = np.array([5, 10, 15, 20, 25])
+
+print("Numbers greater than 15:")
+print(nums[nums > 15])
