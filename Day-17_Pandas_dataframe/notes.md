@@ -27,3 +27,7 @@ This project covers:
 ## Key Learning
 
 Pandas DataFrames are widely used for handling structured datasets in Data Science and Machine Learning workflows.
+
+## Technologies Used
+- Python
+- Pandas
