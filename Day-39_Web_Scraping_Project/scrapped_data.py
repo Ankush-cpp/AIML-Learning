@@ -1,0 +1,28 @@
+import requests
+from bs4 import BeautifulSoup
+
+page_count = 1
+
+while True:
+    URL = f"https://quotes.toscrape.com/page/{page_count}/"
+
+    res = requests.get(URL)
+
+    soup = BeautifulSoup(res.text, "lxml")
+
+    quotes = soup.select("div.quote")
+
+    if not quotes:
+        print("No valid pages anymore.")
+        break
+
+    with open(
+        f"scrapped_data/quotes{page_count}.html",
+        "w",
+        encoding="utf-8"
+    ) as f:
+        f.write(res.text)
+
+    print(f"Downloaded data from page {page_count}")
+
+    page_count += 1
